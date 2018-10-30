@@ -28,25 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.flpCards = new System.Windows.Forms.FlowLayoutPanel();
             this.SuspendLayout();
-            // 
-            // flpCards
-            // 
-            this.flpCards.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpCards.Location = new System.Drawing.Point(0, 0);
-            this.flpCards.Name = "flpCards";
-            this.flpCards.Size = new System.Drawing.Size(284, 261);
-            this.flpCards.TabIndex = 0;
             // 
             // frmPoker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(573, 261);
             this.ControlBox = false;
-            this.Controls.Add(this.flpCards);
             this.Name = "frmPoker";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
@@ -54,8 +44,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.FlowLayoutPanel flpCards;
     }
 }
 
